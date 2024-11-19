@@ -1,0 +1,122 @@
+:root {
+    --font-family: "Rubik", sans-serif;
+    --third-family: "Roboto", sans-serif;
+    --font3: "Cormorant Garamond", sans-serif;
+    --font4: "Montserrat", sans-serif;
+
+    --light: #fff;
+    --dark: #444;
+    --primary: #3cb950;
+    --light-dark: #ececec;
+}
+
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: var(--font-family);
+    overflow-x: hidden;
+}
+
+main {
+    flex: 1;
+}
+
+.container {
+    max-width: 1150px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+/*Rubik*/
+
+@font-face {
+    font-family: "Rubik";
+    src: url("../../fonts/rubik/Rubik-Light.ttf");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Rubik";
+    src: url("../../fonts/rubik/Rubik-LightItalic.ttf");
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Rubik";
+    src: url("../../fonts/rubik/Rubik-Regular.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Rubik";
+    src: url("../../fonts/rubik/Rubik-Medium.ttf");
+    font-weight: 500;
+}
+
+/*Roboto*/
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../../fonts/roboto/Roboto-Light.ttf");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../../fonts/roboto/Roboto-Regular.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../../fonts/roboto/Roboto-Medium.ttf");
+    font-weight: 500;
+}
+
+/*Montserrat*/
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("../../fonts/montserrat/Montserrat-Regular.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("../../fonts/montserrat/Montserrat-Medium.ttf");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("../../fonts/montserrat/Montserrat-SemiBold.ttf");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("../../fonts/montserrat/Montserrat-Black.ttf");
+    font-weight: 900;
+}
+
+/*Cormorant Garamond*/
+
+@font-face {
+    font-family: "Cormorant Garamond";
+    src: url("../../fonts/cormorant/CormorantGaramond-Bold.ttf");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Cormorant Garamond";
+    src: url("../../fonts/cormorant/CormorantGaramond-SemiBoldItalic.ttf");
+    font-weight: 700;
+    font-style: italic;
+}
