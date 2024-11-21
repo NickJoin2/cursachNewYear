@@ -1,0 +1,120 @@
+.delivery {
+    padding: 60px 0;
+    display: grid;
+    align-items: center;
+    gap: 30px;
+}
+
+.delivery__title {
+    font-family: var(--font3);
+    font-weight: 700;
+    font-size: clamp(1.938rem, 1.836rem + 0.51vw, 2.188rem);
+    text-transform: uppercase;
+    color: var(--dark);
+}
+
+.delivery__text {
+    font-weight: 300;
+    font-size: clamp(0.875rem, 0.799rem + 0.38vw, 1.063rem);
+    line-height: 150%;
+    color: var(--dark);
+}
+
+.delivery__info {
+    display: grid;
+    align-items: center;
+    gap: 15px;
+}
+
+.delivery__subtitle {
+    font-family: var(--font3);
+    font-weight: 700;
+    font-size: clamp(1.563rem, 1.385rem + 0.89vw, 2rem);
+    color: var(--dark);
+}
+
+.delivery__bold {
+    font-weight: 500;
+}
+
+.delivery__price {
+    font-size: clamp(0.875rem, 0.799rem + 0.38vw, 1.063rem);
+    line-height: 150%;
+    color: var(--dark);
+    font-weight: 500;
+}
+
+.delivery__table {
+}
+
+
+.delivery__thead tr {
+    background: #edf8ef;
+}
+
+.delivery__thead tr th {
+    padding: 10px;
+    font-weight: 500;
+    text-align: left;
+    font-size: clamp(0.875rem, 0.799rem + 0.38vw, 1.063rem);
+    line-height: 150%;
+    color: #4bb45e;
+}
+
+.delivery__tbody {
+}
+
+.delivery__tbody tr td {
+    padding: 10px;
+    font-weight: 300;
+    text-align: left;
+    font-size: clamp(0.875rem, 0.799rem + 0.38vw, 1.063rem);
+    line-height: 150%;
+    color: var(--dark);
+}
+
+.delivery__bg {
+    background: #f8f8f8;
+}
+
+.delivery__service {
+    font-weight: 400;
+    font-size: clamp(0.875rem, 0.799rem + 0.38vw, 1.063rem);
+    line-height: 150%;
+    color: var(--dark);
+}
+
+.delivery__light {
+    font-weight: 300;
+}
+
+.delivery__semibold {
+    font-weight: 400;
+    font-size: clamp(0.875rem, 0.799rem + 0.38vw, 1.063rem);
+    line-height: 150%;
+    color: var(--dark);
+}
+
+.delivery__list {
+    display: grid;
+    gap: 15px;
+}
+
+.delivery__item {
+    background: #edf8ef;
+    border-radius: 40px;
+    padding: 10px 20px;
+}
+
+.delivery__print {
+    font-weight: 400;
+    font-size: clamp(0.938rem, 0.862rem + 0.38vw, 1.125rem);
+    line-height: 150%;
+    color: var(--second-primary);
+}
+
+@media screen and (max-width: 480px) {
+    .delivery {
+        padding: 30px 0 30px 0;
+    }
+}

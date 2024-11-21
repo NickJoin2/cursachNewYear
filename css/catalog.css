@@ -1,0 +1,106 @@
+.catalog {
+    padding: 60px 0;
+}
+
+.catalog__title {
+    display: block;
+    margin: 0 auto;
+    max-width: 500px;
+    font-family: var(--font3);
+    font-weight: 700;
+    text-align: center;
+    font-size: clamp(1.938rem, 1.836rem + 0.51vw, 2.188rem);
+    text-transform: uppercase;
+    color: var(--dark);
+}
+
+.catalog__list {
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.catalog__item {
+    position: relative;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.catalog__item:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    background-image: url('../images/design/love.svg');
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.catalog__img {
+    padding: 15px;
+}
+
+.catalog__price {
+    text-align: center;
+    font-weight: 300;
+    font-size: clamp(1.5rem, 1.247rem + 1.27vw, 2.125rem);
+    color: var(--second-primary);
+}
+
+.catalog__description {
+    display: inline-block;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 300;
+    font-size: clamp(0.875rem, 0.824rem + 0.25vw, 1rem);
+    color: #444;
+}
+
+.catalog__price-old {
+    font-weight: 400;
+    font-size: clamp(0.938rem, 0.811rem + 0.63vw, 1.25rem);
+    line-height: 150%;
+    text-decoration: line-through;
+    color: #c0c0c0;
+}
+
+.catalog__crumbs-list {
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.catalog__crumbs-item {
+}
+
+.catalog__crumbs-number {
+    padding: 5px;
+    font-weight: 400;
+    font-size: clamp(0.938rem, 0.862rem + 0.38vw, 1.125rem);
+    text-align: center;
+    color: var(--second-primary);
+}
+
+.crumbs__number--active {
+    color: var(--black);
+    border-bottom: 2px solid var(--black);;
+}
+
+@media screen and (max-width: 669px) {
+    .catalog__list {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .catalog {
+        padding: 30px 0;
+    }
+}

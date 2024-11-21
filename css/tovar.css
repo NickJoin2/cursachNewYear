@@ -1,0 +1,137 @@
+.tovar {
+    padding: 30px 0 60px 0;
+}
+
+.tovar__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-wrap: wrap;
+}
+
+.tovar__block {
+    display: grid;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.tovar__img {
+    max-width: 100%;
+    height: auto;
+}
+
+.tovar__title {
+    font-family: var(--font3);
+    font-weight: 700;
+    font-size: clamp(1.938rem, 1.836rem + 0.51vw, 2.188rem);
+    text-transform: uppercase;
+    color: var(--dark);
+}
+
+.tovar__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tovar__price {
+    display: inline-block;
+    font-weight: 400;
+    font-size: clamp(1.875rem, 1.571rem + 1.52vw, 2.625rem);
+    color: var(--second-primary);
+}
+
+.tovar__price-old {
+    display: inline-block;
+    padding-left: 8px;
+    font-weight: 300;
+    font-size: clamp(1.625rem, 1.524rem + 0.51vw, 1.875rem);
+    line-height: 154%;
+    text-decoration: line-through;
+    color: #c0c0c0;
+}
+
+.tovar__stocks {
+}
+
+.tovar__buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.tovar__button {
+    padding: 8px;
+    width: 130px;
+    font-family: var(--third-family);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 120%;
+    text-align: center;
+    color: var(--second-primary);
+    background: rgba(75, 180, 94, 0.1);
+    border-radius: 5px;
+    transition: .3s ease;
+}
+
+
+.tovar__specifications {
+}
+
+.tovar__list {
+    display: grid;
+    align-items: start;
+    gap: 10px;
+}
+
+.tovar__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.tovar__print {
+    display: inline-block;
+    font-weight: 300;
+    font-size: clamp(0.938rem, 0.862rem + 0.38vw, 1.125rem);
+    color: var(--dark);
+}
+
+.tovar__list-element {
+    margin-top: 30px;
+    display: grid;
+    align-items: start;
+}
+
+.tovar__list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 10px 0;
+    border-top: 1px solid var(--light-dark)
+}
+
+.tovar__print-bold {
+    display: inline-block;
+    font-weight: 400;
+    font-size: clamp(1.125rem, 1.074rem + 0.25vw, 1.25rem);
+    color: var(--dark);
+}
+
+.question__question-img {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 669px) {
+
+    .tovar__title {
+        text-align: center;
+    }
+
+    .tovar__wrapper {
+        justify-content: center;
+    }
+}

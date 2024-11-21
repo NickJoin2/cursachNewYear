@@ -8,7 +8,7 @@
 .crumbs__link {
     font-weight: 300;
     font-size: 13px;
-    color: #000;
+    color: var(--black);
 }
 
 .crumbs__element {
@@ -19,7 +19,7 @@
 .crumbs__link-active {
     font-weight: 300;
     font-size: 13px;
-    color: #000;
+    color: var(--black);
     opacity: 0.42;
 }
 
@@ -36,7 +36,6 @@
     transition: .3s ease;
 }
 
-
 .navigation__item:hover {
     background: rgba(75, 180, 94, 0.1);
 }
@@ -46,6 +45,7 @@
 }
 
 .navigation__link {
+    width: 255px;
     display: flex;
     align-items: center;
     gap: 10px;
@@ -62,5 +62,18 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 111%;
-    color: #4bb45e;
+    color: var(--primary);
+}
+
+.section__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 30px;
+}
+
+@media screen and (max-width: 669px) {
+    .navigation {
+        display: none;
+    }
 }

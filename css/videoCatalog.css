@@ -1,0 +1,39 @@
+.video {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: grid;
+    align-items: start;
+    gap: 30px;
+}
+
+.video__title {
+    font-family: var(--font3);
+    font-weight: 700;
+    font-size: clamp(1.938rem, 1.836rem + 0.51vw, 2.188rem);
+    text-transform: uppercase;
+    color: var(--dark);
+}
+
+.video__subtitle {
+    font-weight: 300;
+    font-size: clamp(2.5rem, 1.462rem + 5.19vw, 5.063rem);
+    line-height: 150%;
+    color: var(--black);
+}
+
+.video__text {
+    display: inline-block;
+    width: 100%;
+    max-width: 825px;
+    font-weight: 300;
+    font-size: clamp(0.875rem, 0.799rem + 0.38vw, 1.063rem);
+    line-height: 150%;
+    color: var(--dark);
+}
+
+@media screen and (max-width: 669px) {
+    .video {
+        padding-top: 20px;
+        gap: 15px;
+    }
+}

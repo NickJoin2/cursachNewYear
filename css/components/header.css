@@ -194,6 +194,13 @@
     background: linear-gradient(90deg, var(--primary) 0%, #13dd33 100%);
 }
 
+.header__bg {
+    background-image: url('../../images/header/headerbg.jpg');
+    height: 500px;
+    width: 100%;
+}
+
+
 .header__lower-wrap {
 }
 
@@ -233,7 +240,7 @@
     min-height: 100vh;
     position: absolute;
     top: 0;
-    right: -100%;
+    right: -101%;
     background: var(--light);
     background: linear-gradient(150deg, #317014 0%, #426d0d 47.92%, #095f07 100%);
     z-index: 10;
@@ -293,6 +300,10 @@
 
 @media screen and (max-width: 669px) {
     .header__none {
+        display: none;
+    }
+
+    .header__bg {
         display: none;
     }
 
